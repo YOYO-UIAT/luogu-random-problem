@@ -10,8 +10,14 @@
 
 在命令行中输入 `python3 lg-rand.py --help` 即可得到关于用法的帮助。
 
-**请不要随意改动生成的 problems.json。**
+**请不要随意改动生成的 `problems.json`。**
 
 ## 环境要求
 
 Python 版本 >= 3.2，并安装了 requests，BeautifulSoup4，colorama 和 lxml。
+
+## To-Do
+
+- 支持动态地更新 `problems.json`；
+- 支持在以往的月赛中随机选题；
+- 为输出的题号增加颜色。
