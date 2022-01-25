@@ -8,9 +8,15 @@
 
 ## 用法
 
-在命令行中输入 `python3 lg-rand.py --help` 即可得到关于用法的帮助。
+在命令行中输入 `python lg-rand.py --help` 即可得到关于用法的帮助。
 
 **请不要随意改动生成的 `problems.json`。**
+
+## 举例
+
+`python lg-rand.py 1,1,4,5,1,4`：从所有题库中随机难度分别为红，红，绿，蓝，红，绿的六道题。
+
+`python lg-rand.py 1,2,3 -c P,CF`：从主题库和 CF 题库中随机难度分别为红，橙，黄的三道题。
 
 ## 环境要求
 
