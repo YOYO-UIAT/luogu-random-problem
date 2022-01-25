@@ -20,4 +20,4 @@ Python 版本 >= 3.2，并安装了 requests，BeautifulSoup4，colorama 和 lxm
 
 - 支持动态地更新 `problems.json`；
 - 支持在以往的月赛中随机选题；
-- 为输出的题号增加颜色。
+- 为输出的题号添加颜色。
